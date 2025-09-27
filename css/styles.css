@@ -59,15 +59,19 @@ color: #404bbf;
 
 .hero{
 background: #2e2f42;
+padding: 100px 0;
+text-align: center;
 }
-.hero-title{
+
+.hero-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 40px;
 }
-.button{
+.button {
 background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -75,8 +79,15 @@ background: #4d5ae5;
     letter-spacing: 0.04em;
     color: #fff;
     width: 169px;
-        height: 56px
-}
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease;}
+
+    .button:hover,
+    .button:focus {
+    background-color: #404bbf;
+    }
 /* #characteristics tools */
 .characteristics-name{
         font-weight: 500;
@@ -93,16 +104,18 @@ background: #4d5ae5;
 }
 /* #region tools */
 .tools{
+    background-color: #f4f4fd;
     color: #434455;
 }
 .section-title{
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-align:center;
+    color: #2e2f42;
 }
 .tools-item{
-background: #f4f4fd;
+background-color: #fff;
 }
 .tools-name{
     font-weight: 500;
@@ -110,7 +123,7 @@ background: #f4f4fd;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-   
+    color: #2e2f42; 
 }
 .tools-type{
         font-size: 16px;
@@ -127,6 +140,8 @@ background: #f4f4fd;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
         
 }
 .portfolio-item{
