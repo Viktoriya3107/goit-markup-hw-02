@@ -27,9 +27,9 @@ a {
 
 }
 
-.heder-logo .logo-part {
+.header-logo .logo-part {
     color: #2e2f42;
-}
+   }
 
 .nav-link {
     font-weight: 500;
@@ -37,4 +37,124 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.contacts{
+    font-style: normal;
+}
+.contacts-link{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
+color: #404bbf;
+}
+
+/* #region hero */
+
+.hero{
+background: #2e2f42;
+}
+.hero-title{
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.button{
+background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    width: 169px;
+        height: 56px
+}
+/* #characteristics tools */
+.characteristics-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.characteristics-type{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* #region tools */
+.tools{
+    color: #434455;
+}
+.section-title{
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.tools-item{
+background: #f4f4fd;
+}
+.tools-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+   
+}
+.tools-type{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;     
+}
+
+/* #region portfolio */
+
+.section-title{
+    font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        
+}
+.portfolio-item{
+background: #fff;
+}
+.portfolio-name{
+        font-weight: 500;
+        font-size: 20px;  
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .portfolio-type{
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+    }
+.footer{
+    background: #2e2f42;
+}
+.footer-header-logo .footer-logo-part {
+color: #f4f4fd;
+}
+.footer-slogan{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
